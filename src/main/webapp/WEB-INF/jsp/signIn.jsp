@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 
-<link href="${pageContext.request.contextPath}/resources/styles/signIn.css" rel="stylesheet" >
+
     <form class="form-signin">
         <label for="inputEmail" class="sr-only">Email address</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
