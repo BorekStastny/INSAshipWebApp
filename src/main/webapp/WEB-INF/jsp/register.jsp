@@ -8,9 +8,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <p>
-    Hi!, try the link to the sign in page! And the cat stays!!! (#nojoke)
-</p>
-
-<p>
-    Added example page with instructions, check it out. Dont deleate please.
+    TODO: registration form
 </p>

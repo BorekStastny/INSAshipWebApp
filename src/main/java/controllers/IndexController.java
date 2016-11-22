@@ -14,8 +14,18 @@ public class IndexController {
         return "index";
     }
 
+    @RequestMapping(value = "/example")
+    public String example(){
+        return "example";
+    }
+
     @RequestMapping(value = "/signIn")
     public String signIn(){
         return "signIn";
+    }
+
+    @RequestMapping(value = "/register")
+    public String register(){
+        return "register";
     }
 }
