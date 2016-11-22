@@ -6,11 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Ahoj</title>
-</head>
-<body>
-Ahoj
-</body>
-</html>
+
+<p>
+    Hi!, try the link to the sign in page! And the cat stays!!! (#nojoke)
+</p>

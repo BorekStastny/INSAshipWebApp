@@ -7,4 +7,8 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-&copy; INSA
+<footer class="footer">
+    <div>
+        <p class="text-muted">FOOTER &copy; INSA</p>
+    </div>
+</footer>

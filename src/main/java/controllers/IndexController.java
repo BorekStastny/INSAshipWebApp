@@ -13,4 +13,9 @@ public class IndexController {
     public String index(){
         return "index";
     }
+
+    @RequestMapping(value = "/signIn")
+    public String signIn(){
+        return "signIn";
+    }
 }
