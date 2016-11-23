@@ -25,7 +25,7 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li class="${current == 'index' ? 'active' : ''}"><a href="<spring:url value ="/"/>">Home</a></li>
-                <li class="${current == 'example' ? 'active' : ''}"><a href="<spring:url value ="/example.htm"/>">Example</a></li>
+                <li class="${current == 'example' ? 'active' : ''}"><a href="<spring:url value ="/example"/>">Example</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -40,9 +40,9 @@
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li class="${current == 'signIn' ? 'active' : ''}"><a href="<spring:url value ="/signIn.htm"/>">Sign in</a></li>
-                <li class="${current == 'register' ? 'active' : ''}"><a href="<spring:url value ="/register.htm"/>">Register</a></li>
-                <li><a href="<spring:url value ="/signIn.htm"/>">Logout</a></li>
+                <li class="${current == 'signIn' ? 'active' : ''}"><a href="<spring:url value ="/sign-in"/>">Sign in</a></li>
+                <li class="${current == 'register' ? 'active' : ''}"><a href="<spring:url value ="/register"/>">Register</a></li>
+                <li><a href="<spring:url value ="/sign-in"/>">Logout</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div><!--/.container-fluid -->

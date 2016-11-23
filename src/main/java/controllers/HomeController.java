@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * Created by borik on 11/18/2016.
  */
 @Controller
-public class IndexController {
+public class HomeController {
 
-    @RequestMapping(value = "/index")
+    @RequestMapping(value = "/")
     public String index(){
         return "index";
     }
@@ -19,9 +19,9 @@ public class IndexController {
         return "example";
     }
 
-    @RequestMapping(value = "/signIn")
+    @RequestMapping(value = "/sign-in")
     public String signIn(){
-        return "signIn";
+        return "sign-in";
     }
 
     @RequestMapping(value = "/register")

@@ -21,9 +21,9 @@
         <put-attribute name="current" value="example" cascade="true" />
     </definition>
 
-    <definition name="signIn" extends="common">
+    <definition name="sign-in" extends="common">
         <put-attribute name="title" value="Sign in" />
-        <put-attribute name="body" value="/WEB-INF/jsp/signIn.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/sign-in.jsp" />
         <put-attribute name="current" value="signIn" cascade="true" />
     </definition>
 
