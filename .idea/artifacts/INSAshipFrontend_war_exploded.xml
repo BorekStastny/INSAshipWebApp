@@ -17,6 +17,10 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:4.2.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:4.2.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:4.2.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.3.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.apache.tiles:tiles-extras:3.0.7" />
           <element id="library" level="project" name="Maven: org.apache.tiles:tiles-core:3.0.7" />

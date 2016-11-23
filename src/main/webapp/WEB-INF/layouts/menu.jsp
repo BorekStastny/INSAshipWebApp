@@ -40,9 +40,13 @@
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li class="${current == 'signIn' ? 'active' : ''}"><a href="<spring:url value ="/sign-in"/>">Sign in</a></li>
-                <li class="${current == 'register' ? 'active' : ''}"><a href="<spring:url value ="/register"/>">Register</a></li>
-                <li><a href="<spring:url value ="/sign-in"/>">Logout</a></li>
+                <security:authorize access="! isAuthenticated()">
+                    <li class="${current == 'signIn' ? 'active' : ''}"><a href="<spring:url value ="/sign-in"/>">Sign in</a></li>
+                    <li class="${current == 'register' ? 'active' : ''}"><a href="<spring:url value ="/register"/>">Register</a></li>
+                </security:authorize>
+                <security:authorize access="isAuthenticated()">
+                    <li><a href="<spring:url value ="/logout"/>">Logout</a></li>
+                </security:authorize>
             </ul>
         </div><!--/.nav-collapse -->
     </div><!--/.container-fluid -->

@@ -8,9 +8,22 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <p>
-    Hi!, try the link to the sign in page! And the cat stays!!! (#nojoke)
+    Welcome!
 </p>
 
 <p>
-    Added example page with instructions, check it out. Dont deleate please.
+    Implemented basic authentication with Spring Security. TODO authentication with database (missing DB).
+</p>
+
+<p>
+    username:admin <br>
+    password:admin
+</p>
+
+<p>
+    Added example page with instructions, check it out. Dont delete please. But you need to log in to see it! :)
+</p>
+
+<p>
+    And the cat stays!!! (#nojoke)
 </p>
