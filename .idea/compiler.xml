@@ -23,10 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="INSAshipFrontend" />
+        <module name="INSAshipWebApp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="INSAshipFrontend" target="1.5" />
+      <module name="INSAshipWebApp" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

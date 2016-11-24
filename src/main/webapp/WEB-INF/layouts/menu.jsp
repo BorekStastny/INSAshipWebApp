@@ -41,7 +41,7 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <security:authorize access="! isAuthenticated()">
-                    <li class="${current == 'signIn' ? 'active' : ''}"><a href="<spring:url value ="/sign-in"/>">Sign in</a></li>
+                    <li class="${current == 'sign-in' ? 'active' : ''}"><a href="<spring:url value ="/sign-in"/>">Sign in</a></li>
                     <li class="${current == 'register' ? 'active' : ''}"><a href="<spring:url value ="/register"/>">Register</a></li>
                 </security:authorize>
                 <security:authorize access="isAuthenticated()">

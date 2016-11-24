@@ -24,7 +24,7 @@
     <definition name="sign-in" extends="common">
         <put-attribute name="title" value="Sign in" />
         <put-attribute name="body" value="/WEB-INF/jsp/sign-in.jsp" />
-        <put-attribute name="current" value="signIn" cascade="true" />
+        <put-attribute name="current" value="sign-in" cascade="true" />
     </definition>
 
     <definition name="register" extends="common">
